@@ -1,0 +1,13 @@
+{application,api_erlang_crud,
+             [{description,"API CRUD em Erlang com Cowboy"},
+              {vsn,"0.1.0"},
+              {registered,[]},
+              {mod,{api_erlang_crud_app,[]}},
+              {applications,[kernel,stdlib,cowboy,jiffy,jose]},
+              {env,[]},
+              {modules,[api_erlang_crud_app,api_erlang_crud_sup,auth_utils,
+                        balance_handler,db_server,login_handler,
+                        register_handler,transaction_handler]},
+              {maintainers,[]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
